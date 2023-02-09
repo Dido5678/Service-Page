@@ -1,0 +1,235 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #616161;
+  margin: 0px;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: inherit;
+  font-weight: 400;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0px auto;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.expertise {
+  padding: 0px 20px;
+}
+.expertise__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: -1.65px;
+  margin: 70px 0px 25px 0px;
+  color: #242121;
+}
+.expertise__subline {
+  height: 4px;
+  width: 60px;
+  background: #fcbb08;
+}
+.expertise__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 175px 0px 0px 0px;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.expertise__percent-block {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 330px;
+          flex: 0 1 330px;
+}
+.expertise__percent-box {
+  margin: 0px 0px 30px 0px;
+}
+.expertise__percent-bg {
+  height: 2px;
+  background: #f0f0f0;
+}
+.expertise__percent-line {
+  background: #000;
+  height: 100%;
+  position: relative;
+}
+.expertise__percent-line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.expertise__percent-line_branding {
+  width: 90%;
+}
+.expertise__percent-line_branding::after {
+  content: "90%";
+}
+.expertise__percent-line_design {
+  width: 80%;
+}
+.expertise__percent-line_design:after {
+  content: "80%";
+}
+.expertise__percent-line_development {
+  width: 85%;
+}
+.expertise__percent-line_development::after {
+  content: "85%";
+}
+.expertise__percent-title {
+  margin: 10px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #1d1d1d;
+}
+.expertise__text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #373a39;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 740px;
+          flex: 0 1 740px;
+}
+.expertise__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 25px;
+  margin: 120px 0px 160px 0px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.expertise__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 370px;
+}
+.expertise__item-img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 35px 0px 0px;
+}
+.expertise__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 4.29px;
+  margin: 0px 0px 15px 0px;
+  color: #333333;
+}
+.expertise__item-text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #777777;
+  max-width: 285px;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+  font-family: arial;
+}
